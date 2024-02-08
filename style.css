@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    text-align: center;
+    padding: 50px;
+    color: red;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.glasses-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesButton {
+    background-color: red;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: darkred;
+}
